@@ -16,6 +16,8 @@
 		9DCEB6CF1C42A4E0008E4A43 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEB6CE1C42A4E0008E4A43 /* Pokemon.swift */; };
 		9DCEB6D21C42ACF0008E4A43 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEB6D11C42ACF0008E4A43 /* PokeCell.swift */; };
 		9DCEB6D41C42B85B008E4A43 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEB6D31C42B85A008E4A43 /* csv.swift */; };
+		9DCEB6DB1C42BFE1008E4A43 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEB6DA1C42BFE1008E4A43 /* pokemon.ttf */; };
+		9DCEB6DD1C42C2A0008E4A43 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEB6DC1C42C2A0008E4A43 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		9DCEB6CE1C42A4E0008E4A43 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		9DCEB6D11C42ACF0008E4A43 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		9DCEB6D31C42B85A008E4A43 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		9DCEB6DA1C42BFE1008E4A43 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		9DCEB6DC1C42C2A0008E4A43 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		9DCEB6D71C42B8A8008E4A43 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9DCEB6DC1C42C2A0008E4A43 /* music.mp3 */,
+				9DCEB6DA1C42BFE1008E4A43 /* pokemon.ttf */,
 				9DCEB6CB1C42A3EF008E4A43 /* pokemon.csv */,
 			);
 			name = Resources;
@@ -175,7 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCEB6DB1C42BFE1008E4A43 /* pokemon.ttf in Resources */,
 				9DCEB6C41C42A26E008E4A43 /* LaunchScreen.storyboard in Resources */,
+				9DCEB6DD1C42C2A0008E4A43 /* music.mp3 in Resources */,
 				9DCEB6C11C42A26E008E4A43 /* Assets.xcassets in Resources */,
 				9DCEB6CC1C42A3EF008E4A43 /* pokemon.csv in Resources */,
 				9DCEB6BF1C42A26E008E4A43 /* Main.storyboard in Resources */,
